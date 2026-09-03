@@ -1,0 +1,79 @@
+body {
+margin:0;
+min-height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:#070b0e;
+font-family:Arial,sans-serif;
+}
+
+.card {
+width:90%;
+max-width:650px;
+background:#0d1216;
+border:1px solid #263238;
+border-radius:25px;
+padding:40px;
+color:#eeeeee;
+}
+
+h1 {
+font-size:38px;
+font-weight:600;
+margin:0;
+}
+
+.line {
+width:60px;
+height:3px;
+background:#16b8b0;
+margin:20px 0;
+}
+
+h2 {
+color:#16b8b0;
+letter-spacing:3px;
+font-size:18px;
+}
+
+.university {
+font-size:18px;
+line-height:1.7;
+}
+
+.bio {
+margin-top:30px;
+padding-left:18px;
+border-left:3px solid #16b8b0;
+color:#c9d0d3;
+line-height:1.8;
+}
+
+.buttons {
+margin-top:35px;
+display:flex;
+gap:15px;
+flex-wrap:wrap;
+}
+
+.buttons a {
+display:flex;
+align-items:center;
+gap:12px;
+padding:12px 18px;
+border-radius:15px;
+border:1px solid #16b8b0;
+color:white;
+text-decoration:none;
+}
+
+.buttons span {
+color:#16b8b0;
+font-size:13px;
+}
+
+.buttons small {
+color:white;
+font-size:14px;
+}
