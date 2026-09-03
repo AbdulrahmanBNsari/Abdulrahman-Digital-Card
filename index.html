@@ -25,8 +25,21 @@ Umm Al-Qura University
 
 
 <p class="bio">
-Interested in technology programming research and problem solving. 
-Exploring solutions while learning about leadership and management.
+
+<span>
+Interested in technology programming research and problem solving.
+</span>
+
+<span id="moreText" style="display:none;">
+ Exploring solutions while learning about leadership and management.
+</span>
+
+<br>
+
+<button onclick="showMore()" id="moreBtn">
+More
+</button>
+
 </p>
 
 
@@ -62,6 +75,15 @@ LINKEDIN<br>
 </div>
 
 </div>
+
+
+<script>
+function showMore() {
+document.getElementById("moreText").style.display = "inline";
+document.getElementById("moreBtn").style.display = "none";
+}
+</script>
+
 
 </body>
 </html>
